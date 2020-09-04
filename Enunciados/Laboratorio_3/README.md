@@ -24,6 +24,8 @@ El thread principal debe reportar una estadística en la salida estándar, que e
 Minimum thread creation and destruction time was 0.123456789s among 12345 trials
 ```
 
+*Sugerencia:* Utilice la función *clock_gettime* para obtener el tiempo inicial y final y calcular la duración.
+
 ## Ejercicio 2 [hello_ordered_mutex]
 
 Modifique la solución del ejemplo de Hello Word con espera activa visto en clase para obligar a los hilos de ejecución a saludar en orden en la salida estándar. Use una colección de mutexes, uno por cada thread. Haga que únicamente el thread 0 tenga su mutex habilitado. Cuando el thread 0 ha saludado, habilita el mutex del siguiente thread y así sucesivamente.

@@ -11,7 +11,7 @@ CI9117-2020-S2/laboratorios/3/thread_creation_time/thread_creation_time.c
 ```
 
 Para los ejercicios que, además de código, también requieran responder preguntas sobre la solución, se deberá crear un archivo README.md con las respuestas dentro del folder del ejercicio respectivo.
-Agregue un archivo *Makefile* para cada uno de los ejercicios con los comandos necesarios para compilar y ejecutar la solucion, de forma que el ejecutable tenga el mismo nombre dado en el ejercicio.
+Agregue un archivo *Makefile* para cada uno de los ejercicios con los comandos necesarios para compilar el codigo fuente, de forma que el ejecutable tenga el mismo nombre dado en el ejercicio.
 Asegúrese de subir al repositorio únicamente archivos .c, .md y Makefile. Cree un archivo .gitignore para evitar subir archivos ejecutables.
 
 ## Ejercicio 1 [thread_creation_time]

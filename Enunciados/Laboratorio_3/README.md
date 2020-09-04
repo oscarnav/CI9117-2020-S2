@@ -1,10 +1,10 @@
-# CI9117 - Laboratorio 3
+# CI0117 - Laboratorio 3
 
 ### Instrucciones generales
 
 **Fecha de entrega:** Viernes 11 de Setiembre.
 
-Las soluciones a los ejercicios de este laboratorio deberán ser subidas a un repositorio público de Github. Para ello el estudiante deberá tener una cuenta en https://github.com/ y crear un repositorio público con el nombre *CI9117-2020-S2*. Dentro de dicho repositorio se deberá crear un folder con el nombre *laboratorios*. La solución a cada laboratorio deberá estar contenida dentro de un folder con el respectivo número dentro del folder *laboratorios*. A su vez, la solución a cada ejercicio deberá subirse en un folder con el nombre indicado entre paréntesis cuadrados. Por ejemplo, para el **Ejercicio 1**, el código de la solución deberá entregarse siguiendo la siguiente estructura de folders:
+Las soluciones a los ejercicios de este laboratorio deberán ser subidas a un repositorio público de Github. Para ello el estudiante deberá tener una cuenta en https://github.com/ y crear un repositorio público con el nombre *CI0117-2020-S2*. Dentro de dicho repositorio se deberá crear un folder con el nombre *laboratorios*. La solución a cada laboratorio deberá estar contenida dentro de un folder con el respectivo número dentro del folder *laboratorios*. A su vez, la solución a cada ejercicio deberá subirse en un folder con el nombre indicado entre paréntesis cuadrados. Por ejemplo, para el **Ejercicio 1**, el código de la solución deberá entregarse siguiendo la siguiente estructura de folders:
 
 ```
 CI9117-2020-S2/laboratorios/3/thread_creation_time/thread_creation_time.c

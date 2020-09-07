@@ -27,16 +27,15 @@ Las posiciones tienen que aparecer en orden. Utilice un mutex como mecanismo de 
 
 ```c
 pthread_mutex_t mutex_example;
-size_t shared_variable = 123;
-pthread_mutex_init(&shared_variable, /*attr*/ NULL);
+pthread_mutex_init(&mutex_example, /*attr*/ NULL);
 ...
-pthread_mutex_destroy(&shared_variable);
+pthread_mutex_destroy(&mutex_example);
 ```
 
 * Bloqueo y desbloqueo de un mutex dentro de un hilo en C utilizando el tipo *pthread_mutex_t*:
 
 ```c
-pthread_mutex_lock(&shared_variable);
+pthread_mutex_lock(&mutex_example);
 shared_variable = 456;
-pthread_mutex_unlock(&shared_variable);
+pthread_mutex_unlock(&mutex_example);
 ```
